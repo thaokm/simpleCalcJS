@@ -1,0 +1,68 @@
+html, body {
+    margin: auto;
+    padding: auto;
+    background-color: ghostwhite;
+    /*max-width: 380px;
+    min-width: 280px;*/
+    width: 320px;
+}
+.has-border {
+    border: gray solid 1px;
+}
+.my-header {
+    font-size: 30px;
+}
+.my-footer {
+    font-size: 15px;
+}
+.display-main {
+    background-color: rgb(68, 68, 68);
+    color: white;
+    height: 80px;
+    font-size: 30px;
+    padding: 6%;
+    box-shadow: rgb(192, 192, 192) 1px 5px;
+}
+.display-buffer {
+    background-color: rgb(88, 88, 88);
+    color: white;
+    min-height: 25px;
+    font-size: 15px;
+    box-shadow: rgb(192, 192, 192) 1px 5px;
+}
+.calc-pad {
+    /*border: gray solid 1px;*/
+    min-height: 180px;
+}
+.key {
+    border: gray solid 1px;
+    padding: 6%;
+    font-size: 26px;
+    box-shadow: rgb(192, 192, 192) 1px 5px;
+    height: 80px;
+}
+.key-1 {
+    border-radius: 40px;
+}
+.key-2 {
+    border-radius: 40px;
+}
+.key-3 {
+    border-radius: 40px;
+}
+.key-num {
+    background-color: white;
+}
+.key-operator {
+    background-color: rgb(255, 221, 128);
+}
+.key-function {
+    background-color: rgb(51, 214, 255);
+}
+.key-press {
+    background-color: rgb(231, 231, 231);
+}
+.my-row {
+    border: gray solid 1px;
+    border-radius: 5px;
+}
